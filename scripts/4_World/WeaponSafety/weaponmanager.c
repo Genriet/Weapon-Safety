@@ -11,7 +11,7 @@ modded class WeaponManager
     };
 
 	// Weapons with bolt manipulation enabled
-    // Unfortunatelly I didn't find a way to block reload after attaching magazine, hopefully BI fixes this https://feedback.bistudio.com/T189203
+    // Unfortunately I didn't find a way to block reload after chambering magazine, hopefully BI fixes this https://feedback.bistudio.com/T189203
     override bool CanLoadBullet(Weapon_Base wpn, Magazine mag, bool reservationCheck = true)
     {
         if (WeaponSafety_GetCurrentMode() == wpn.WeaponSafety_GetSafetyIndex() && wpn.WeaponSafety_SafetyBlocksBolt())
