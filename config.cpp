@@ -300,4 +300,9 @@ class CfgWeapons
 		modes[] = { "Safe", "Single" };
 		class Safe : Mode_Safe {};
 	};
+	class SCARH_Base: Rifle_Base
+	{
+		modes[] = { "Safe", "SemiAuto","FullAuto"};
+		class Safe : Mode_Safe {};
+	};
 }
