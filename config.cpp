@@ -48,16 +48,6 @@ class CfgWeapons
 		modes[] = { "Safe", "SemiAuto" };
 		class Safe : Mode_Safe {};
 	};
-	class Derringer_Base : Pistol_Base
-	{
-		modes[] = { "Safe", "Single" };
-		class Safe : Mode_Safe {};
-		class SecondMuzzle : SecondMuzzle
-		{
-			modes[] = { "Safe", "Single" };
-			class Safe : Mode_Safe {};
-		};
-	};
 	class LongHorn_Base : Pistol_Base 
 	{
 		modes[] = { "Safe", "Single" };
@@ -72,16 +62,6 @@ class CfgWeapons
 	{
 		modes[] = { "Safe", "SemiAuto" };
 		class Safe : Mode_Safe {};
-	};
-	class Magnum_Base : Pistol_Base 
-	{
-		modes[] = { "Safe", "Single" };
-		class Safe : Mode_Safe {};
-		class SecondMuzzle : SecondMuzzle
-		{
-			modes[] = { "Safe", "Single" };
-			class Safe : Mode_Safe {};
-		};
 	};
 	class MKII_Base : Pistol_Base 
 	{
@@ -199,11 +179,6 @@ class CfgWeapons
 		modes[] = { "Safe", "SemiAuto", "FullAuto" };
 		class Safe : Mode_Safe {};
 		safetyBlocksBolt = true;
-	};
-	class Repeater_Base : Rifle_Base
-	{
-		modes[] = { "Safe", "Single" };
-		class Safe : Mode_Safe {};
 	};
 	class Ruger1022_Base : Rifle_Base
 	{
