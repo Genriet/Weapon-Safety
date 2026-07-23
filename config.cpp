@@ -58,11 +58,6 @@ class CfgWeapons
 		modes[] = { "Safe", "SemiAuto" };
 		class Safe : Mode_Safe {};
 	};
-	class Glock19_Base : Pistol_Base 
-	{
-		modes[] = { "Safe", "SemiAuto" };
-		class Safe : Mode_Safe {};
-	};
 	class MKII_Base : Pistol_Base 
 	{
 		modes[] = { "Safe", "SemiAuto" };
